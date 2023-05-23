@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/login.css">
+  <title>Login</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <form>
+      <div class="input-group">
+        <input type="text" id="username" name="username" required>
+        <label for="username">Usuario</label>
+      </div>
+      <div class="input-group">
+        <input type="password" id="password" name="password" required>
+        <label for="password">Contraseña</label>
+      </div>
+      <button type="submit">Iniciar sesión</button>
+    </form>
+    <a href="registro.html">¿No tienes una cuenta? Regístrate aquí</a>
+  </div>
+  <div class="error-message">
+    <p>¡Error de inicio de sesión! Por favor, verifica tus credenciales.</p>
+  </div>
+</body>
+</html>
